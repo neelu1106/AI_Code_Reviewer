@@ -1,8 +1,8 @@
 import streamlit as st
 import google.generativeai as genai
 
-st.title("🚀 AI Python Code Reviewer")
-st.write("Submit your Python code for an automated review and receive a bug report with suggested fixes.")
+st.title("⚡ AI Python Code Reviewer🚀")
+st.write("Submit your Python code for an AI-powered review and get a detailed bug report with suggested improvements and fixes.")
 
 API_KEY = st.secrets["general"]["API_KEY"]
 if not API_KEY:
